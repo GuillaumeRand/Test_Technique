@@ -1,0 +1,146 @@
+/**
+ * Copyright since 2007 PrestaShop SA and Contributors
+ * PrestaShop is an International Registered Trademark & Property of PrestaShop SA
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License version 3.0
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * https://opensource.org/licenses/AFL-3.0
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@prestashop.com so we can send you a copy immediately.
+ *
+ * @author    PrestaShop SA and Contributors <contact@prestashop.com>
+ * @copyright Since 2007 PrestaShop SA and Contributors
+ * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License version 3.0
+ */
+.wishlist-modal{display:block;opacity:0;pointer-events:none;z-index:0}
+.wishlist-modal.show {
+	opacity: 1;
+	pointer-events: all;
+	z-index: 1051;
+	background: rgba(0,0,0,0.7);
+}
+.wishlist-modal.show+.modal-backdrop{pointer-events:all}.wishlist-modal.fade .modal-dialog{max-width:550px;-webkit-transform:translateY(0);transform:translateY(0)}.wishlist-modal .close{font-weight:400;color:#7a7a7a;opacity:1;font-size:2.25rem}.wishlist-modal .close:hover{opacity:0.6}
+.wishlist-modal .modal-header {
+	padding: 0.625rem 1.875rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.wishlist-modal .modal-header h5{color:#232323;font-size:22px;font-weight:bold;letter-spacing:0;line-height:30px}
+.wishlist-modal .modal-header::after{content:none}
+.wishlist-modal .modal-text{color:#232323;font-size:14px;letter-spacing:0;line-height:19px}
+.wishlist-modal .modal-body{padding:15px 30px}
+.wishlist-modal .modal-body .form-group{margin-bottom:0}
+.wishlist-modal .modal-body .form-group .form-control {
+	background: none;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	color: black;
+	outline: none!important;
+}
+.wishlist-modal button {
+	outline: none!important;
+}
+.wishlist-modal .modal-content{width:100%}
+.wishlist-modal .modal-cancel{background:#dddddd;margin-right:10px}
+.wishlist-modal .modal-cancel:hover{opacity:0.7}
+.wishlist-modal .modal-footer {
+	padding: 0 30px;
+	border: none;
+	text-align: left;
+	padding-bottom: 15px;
+	border-top: 1px solid #ddd;
+	padding-top: 15px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.wishlist-modal .modal-footer:after {
+	display: none;
+}
+.wl_share_social {
+	display: inline-block;
+	position: relative;
+}
+ul.wishlist-list {
+	margin-bottom: 0;
+}
+.wishlist-create .modal-footer {
+	border-top: 1px solid #f2f2f2;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.wishlist-modal label.required:after {
+	content: "*";
+	color: red;
+}
+.wishlist-create .modal-footer:after{
+	display: none;
+}
+.wishlist-list p {
+	margin: 0;
+	padding: 10px 0;
+	color: #24b9d7;
+	cursor: pointer;
+	font-size: 13px;
+}
+.wishlist-list p:hover{
+	color: #1d93ab;
+}
+a.wishlist-add-to-new {
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	color: #555!important;
+	font-size: 13px;
+	border: 1px solid #ccc;
+	padding: 7px 10px;
+	border-radius: 4px;
+}
+.wishlist-container table tr.nodrag.nodrop:not(.filter) th {
+	border-top: none;
+}
+.list-order-products img {
+	width: 50px;
+}
+#module-wishlist_pres-lists button {
+	outline: none;
+}
+a.wishlist-add-to-new:hover {
+	background: #24b9d7;
+	color: #ffffff!important;
+	border-color: #24b9d7;
+}
+a.wishlist-add-to-new i.material-icons {
+	margin-right: 5px;
+	font-size: 16px;
+}
+.wishlist-modal .modal-footer .btn{text-transform:none}
+.wishlist-modal .modal-backdrop{pointer-events:none}
+.wishlist-modal .modal-backdrop.in{pointer-events:all}
+.wishlist-modal+.modal-backdrop{pointer-events:none}
+.wishlist-modal+.modal-backdrop.in{pointer-events:all}
+.wishlist-footer-links{margin-bottom:50px}
+.wishlist-footer-links>a{color:#2fb5d2;font-size:14px;letter-spacing:0;line-height:19px}
+.wishlist-footer-links>a:not(:first-child){margin-left:20px}
+.wishlist-footer-links>a i{font-size:20px;margin-right:4px;vertical-align:middle}
+
+
+
+
+
+
+
